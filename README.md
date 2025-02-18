@@ -2,4 +2,5 @@
 
 ### Contents
 
-[Knowledge Area](./knowledge/README.md "Knowledge")
+* [Knowledge Area](./knowledge/README.md "Knowledge")
+* [Practice Area](./practice)
