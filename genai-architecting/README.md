@@ -2,8 +2,7 @@
 
 [Back to Main](../README.md)
 
-
-![image](`/conceptional-diagram.png)
+![image](conceptional-diagram.png)
 
 ## Functional Requirements
 
