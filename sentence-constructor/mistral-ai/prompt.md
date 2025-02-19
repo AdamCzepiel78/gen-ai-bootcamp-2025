@@ -121,5 +121,3 @@ Teaching Instructions:
   </assistent:output>
 </example>
 
-#### Output: 
-

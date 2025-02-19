@@ -2,8 +2,8 @@
 
 ### Which Model
 
-GPT-4-turbo
+GPT-4-turbo open source version
 
 ### Prompting Guides
 
-https://www.promptingguide.ai/models/chatgpt
+https://platform.openai.com/docs/guides/prompt-engineering
