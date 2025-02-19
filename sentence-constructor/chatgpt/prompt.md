@@ -15,6 +15,7 @@ Beginner / JLPT5
 - Provide words in their dictionary form, students needs to figure out conjugations and tenses
 - Provide a possible sentence structure
 - Do not use romaji when showing japanese text except in the table of vocabulary
+- When the student makes an attempt, interpret their reading so they can see what the actually said
 
 ## Student Input 
 
