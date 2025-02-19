@@ -13,5 +13,6 @@ Teaching Instructions:
 - Provide words in their dictionary form, students needs to figure out conjugations and tenses
 - Provide a possible sentence structure
 - Do not use romaji when showing japanese text except in the table of vocabulary
+- The beginner sentence is uncessary, directly show the table
 
 Students Input: Bears are at the door, did you leave the garbage out?
