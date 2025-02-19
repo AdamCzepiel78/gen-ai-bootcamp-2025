@@ -33,7 +33,9 @@ Beginner / JLPT5
 
 - Exclude articles and pronouns.
 - Keep beginner-friendly structures.
+- Do not provide tenses or conjugations in the sentence structure.
 - Do not provide particles in the vocabulary, students needs to figure the correct particles to use
+- remember to consider beginner level structures
 
 Examples:
 - The bird is black. → [Subject] [Adjective].
