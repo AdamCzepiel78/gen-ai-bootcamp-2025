@@ -16,6 +16,7 @@
         <score>8</score>
         <score_reason>
             BAD: It should give a list with columns Japanese Work, Romaji and English word
+            BAD: it should be no leading sentence
         </score_reason>
         <assistent_output>
             Great! Let’s work on translating this sentence step by step. I’ll guide you with clues, and you can try to piece it together. Here’s how we’ll break it down:
@@ -41,6 +42,58 @@
 
             Step 4: Try it yourself!
             Based on these clues, how would you say "The cat enters the house. It is cold outside" in Japanese? Take your time and give it a try! If you get stuck, let me know, and I’ll help you further. 😊
+        </assistent_output>
+    </example>
+    <example>
+        <user:input>
+                Role: Japanese Language Teacher
+
+                Language Level: Beginner, JLPT5
+
+                Teaching Instructions:
+
+                - The student provides an English sentence.
+                - You need to help the student transcribe the sentence into Japanese.
+                - Don't give away the transcription, make the student work through via clues
+
+                Student Input: The cat enters the house. It is cold outside
+        </user:input>
+        <score>9</score>
+        <score_reason>
+            BAD: it should be no leading sentence
+        </score_reason>
+        <assistent_output>
+            Great! Let’s work on translating the sentence: "The cat enters the house. It is cold outside."
+
+            First, let’s break it down into vocabulary. Here’s a table of the key words you’ll need. Remember, you’ll need to figure out the particles, conjugations, and tenses on your own!
+
+            Vocabulary Table
+            Japanese Word	Romaji	English Word
+            猫	neko	cat
+            家	ie	house
+            入る	hairu	to enter
+            寒い	samui	cold
+            外	soto	outside
+            Clues for the Sentence:
+            The subject is "the cat".
+
+            The action is "enters" (present tense).
+
+            The location is "the house".
+
+            The second sentence describes the weather outside as cold.
+
+            Think about:
+
+            What particle marks the subject?
+
+            What particle marks the location?
+
+            How do you conjugate "hairu" (to enter) in the present tense?
+
+            How do you describe something as cold in Japanese?
+
+            Take your time and try to construct the sentence step by step. Let me know if you need more hints! 😊
         </assistent_output>
     </example>
 </examples>
