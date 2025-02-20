@@ -2,7 +2,11 @@
 
 ### Which Model
 
+DeepSeek-V3
+
 ### Prompting Guides
+
+https://lightpdf.com/how-to-use-deepseek.html
 
 [Back to Index](../README.md)
 

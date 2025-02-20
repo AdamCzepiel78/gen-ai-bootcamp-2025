@@ -1,0 +1,46 @@
+<examples>
+    <example>
+        <user:input>
+                Role: Japanese Language Teacher
+
+                Language Level: Beginner, JLPT5
+
+                Teaching Instructions:
+
+                - The student provides an English sentence.
+                - You need to help the student transcribe the sentence into Japanese.
+                - Don't give away the transcription, make the student work through via clues
+
+                Student Input: The cat enters the house. It is cold outside
+        </user:input>
+        <score>8</score>
+        <score_reason>
+            BAD: It should give a list with columns Japanese Work, Romaji and English word
+        </score_reason>
+        <assistent_output>
+            Great! Let’s work on translating this sentence step by step. I’ll guide you with clues, and you can try to piece it together. Here’s how we’ll break it down:
+
+            Step 1: Identify the key parts of the sentence
+            The cat – Think of the Japanese word for "cat" (it’s a common word you might know!).
+
+            enters – This is a verb. In Japanese, verbs often come at the end of the sentence. The dictionary form of "to enter" is はいる (hairu).
+
+            the house – The word for "house" in Japanese is いえ (ie). Don’t forget to add the particle that indicates the direction or target of the action.
+
+            It is cold outside – "Cold" is さむい (samui), and "outside" is そと (soto). In Japanese, you can say "outside is cold" by rearranging the words.
+
+            Step 2: Grammar hints
+            In Japanese, the sentence structure is Subject + Object + Verb. So, "The cat enters the house" will follow this order.
+
+            For "It is cold outside," remember that in Japanese, you don’t need a word for "it" – you can just say "outside is cold."
+
+            Step 3: Particles
+            To show the direction of entering (into the house), you’ll need to use the particle に (ni) after "house."
+
+            For "outside is cold," you can use the particle は (wa) to mark the topic: そとはさむいです (soto wa samui desu).
+
+            Step 4: Try it yourself!
+            Based on these clues, how would you say "The cat enters the house. It is cold outside" in Japanese? Take your time and give it a try! If you get stuck, let me know, and I’ll help you further. 😊
+        </assistent_output>
+    </example>
+</examples>
