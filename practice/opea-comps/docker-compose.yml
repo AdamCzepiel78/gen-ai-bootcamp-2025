@@ -1,0 +1,37 @@
+# Copyright (C) 2024 Intel Corporation
+# SPDX-License-Identifier: Apache-2.0
+
+services:
+  ollama-server:
+    image: ollama/ollama
+    container_name: ollama-server
+    ports:
+      - ${LLM_ENDPOINT_PORT:-8008}:11434
+    environment:
+      no_proxy: ${no_proxy}
+      http_proxy: ${http_proxy}
+      https_proxy: ${https_proxy}
+      LLM_MODEL_ID: ${LLM_MODEL_ID}
+      host_ip: ${host_ip}
+    volumes: 
+      - /mnt/e/Programme/ollama/models:/root/.ollama/models
+
+  llm-textgen-server:
+    container_name: llm-textgen-server
+    image: opea/llm-textgen:latest
+    ipc: host
+    ports:
+      - "3000:9000"
+    environment:
+      no_proxy: "${no_proxy}"
+      http_proxy: "${http_proxy}"
+      https_proxy: "${https_proxy}"
+      LLM_ENDPOINT: "${LLM_ENDPOINT}"
+      HF_TOKEN: ""
+      LLM_MODEL_ID: "${LLM_MODEL_ID}"
+      LLM_COMPONENT_NAME: "OpeaTextGenService"
+  
+
+networks:
+  default:
+    driver: bridge
